@@ -1,6 +1,6 @@
 # Dépendances Python de Scribe
 # Chaque nouvelle dépendance est ajoutée ici avec sa version exacte
-
+python-dotenv==1.2.2
 #
 # Ce fichier est complété au fil des étapes :
 #  - étape 2 : python-dotenv (chargement du .env)
