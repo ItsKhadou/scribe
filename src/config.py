@@ -15,8 +15,8 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Identifiants des modèles — seul endroit du projet où ils apparaissent.
-STT_MODEL = "A_REMPLIR"
-LLM_MODEL = "A_REMPLIR"
+STT_MODEL = "whisper-large-v3"
+LLM_MODEL = "llama-3.1-8b-instant"
 
 # Échec immédiat et lisible si la clé manque, plutôt qu'une
 # erreur 401 cryptique au moment de l'appel API.
