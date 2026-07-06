@@ -96,7 +96,7 @@ cython_debug/
 audio/*.wav
 audio/*.mp3
 audio/*.m4a
-!audio/exemple.mp3
+!audio/exemple.m4a
 
 # 
 outputs/
